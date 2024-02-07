@@ -15,5 +15,4 @@ jobs:
         
       - name: Version Database
         run: |
-          echo 'step one'
-          echo 'step two
+          echo step one
