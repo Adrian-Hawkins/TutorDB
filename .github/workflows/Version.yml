@@ -2,9 +2,9 @@ name: Database Versioning
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "dev" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "dev" ]
   workflow_dispatch:
 jobs:
   version:
@@ -13,6 +13,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
         
-      - name: Version Database
+      - name: Setup Flyway CLI
         run: |
-          echo step one
+          sudo apt update
+          sudo apt install -y default-jre
+          wget -qO- https://repo1.maven.org/maven2/org/flywaydb/flyway-commandline/8.0.2/flyway-commandline-8.0.2-linux-x64.tar.gz | tar xvz
+          sudo ln -s $(pwd)/flyway-8.0.2/flyway /usr/local/bin/flyway
