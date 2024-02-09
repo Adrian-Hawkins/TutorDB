@@ -8,7 +8,6 @@ on:
   workflow_dispatch:
 env:
   AWS_REGION: "eu-west-1"
-  AWS_ROLE: ${{ secrets.AWS_ROLE }}
 permissions:
   id-token: write
   contents: read
@@ -21,7 +20,7 @@ jobs:
       - name: configure aws credentials
         uses: aws-actions/configure-aws-credentials@v1.7.0
         with:
-          role-to-assume: ${{ env.AWS_ROLE }}
+          role-to-assume: arn:aws:iam::804180393465:oidc-provider/token.actions.githubusercontent.com
           role-session-name: GitHub_to_AWS_via_FederatedOIDC
           aws-region: ${{ env.AWS_REGION }}
       - name: Sts GetCallerIdentity
