@@ -1,1 +1,16 @@
 .env
+
+.aws
+
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+crash.log
+*.tfplan
+.terraformrc
+.vscode/*.tf
