@@ -1,9 +1,3 @@
-provider "aws" {
-  region = "eu-west-1"
-  access_key = ""
-  secret_key = ""
-}
-
 resource "aws_default_vpc" "default_vpc" {
   tags = {
     Name = "default_vpc"
@@ -52,6 +46,11 @@ resource "aws_db_instance" "tutordb" {
   password               = "db39e8c15d5ef228"
   skip_final_snapshot    = true
   vpc_security_group_ids = [aws_security_group.allow_mssql.id]
+  provisioner "local-exec" {
+    command = <<-EOT
+      sqlcmd -S ${self.endpoint} -U ${self.username} -P '${self.password}' -Q "CREATE DATABASE root;";
+    EOT
+  }
   tags = {
     owner         = "adrian.hawkins@bbd.co.za"
     created-using = "terraform"
