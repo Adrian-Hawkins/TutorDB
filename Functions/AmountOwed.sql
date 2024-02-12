@@ -6,6 +6,7 @@ BEGIN
     SELECT @totalAmount = SUM(s.price)
     FROM StudentSessions ss
     INNER JOIN Sessions s ON ss.session_id = s.id
-    WHERE ss.student_id = @studentId;
+    WHERE ss.student_id = @studentId
+    AND ss.paid = 0;
     RETURN ISNULL(@totalAmount, 0.00);
 END;
