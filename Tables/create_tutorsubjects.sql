@@ -1,7 +1,7 @@
-CREATE TABLE [Students] (
+CREATE TABLE [TutorSubjects] (
   [id] integer PRIMARY KEY NOT NULL,
-  [name] nvarchar(255) NOT NULL,
-  [surname] nvarchar(255) NOT NULL,
+  [tutor_id] integer NOT NULL,
+  [subject_id] integer NOT NULL,
   [created_on] timestamp default (CURRENT_TIMESTAMP)
 );
 GO
