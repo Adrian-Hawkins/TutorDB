@@ -37,8 +37,8 @@ INSERT INTO Sessions (tutor_subject_id, start, duration_minutes, price, link, ca
 
 -- Populate StudentSessions table
 INSERT INTO StudentSessions (session_id, student_id, paid, created_on) VALUES
-    (1, 1, true, CURRENT_TIMESTAMP),
-    (2, 2, true, CURRENT_TIMESTAMP),
-    (1, 2, true, CURRENT_TIMESTAMP),
-    (2, 3, false, CURRENT_TIMESTAMP),
-    (3, 3, false, CURRENT_TIMESTAMP);
+    (1, 1, 1, CURRENT_TIMESTAMP),
+    (2, 2, 1, CURRENT_TIMESTAMP),
+    (1, 2, 1, CURRENT_TIMESTAMP),
+    (2, 3, 0, CURRENT_TIMESTAMP),
+    (3, 3, 0, CURRENT_TIMESTAMP);
