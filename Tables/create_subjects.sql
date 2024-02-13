@@ -5,4 +5,4 @@ CREATE TABLE [Subjects] (
     [material_link] nvarchar(255),
     [created_on] timestamp
     )
-GO;
+GO
