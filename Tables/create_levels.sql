@@ -1,7 +1,7 @@
 CREATE TABLE [Level] (
-  [id] integer PRIMARY KEY,
-  [title] nvarchar(255),
-  [description] nvarchar(255),
-  [created_on] timestamp
-)
+  [id] integer PRIMARY KEY NOT NULL,
+  [title] nvarchar(255) NOT NULL,
+  [description] nvarchar(255) NOT NULL,
+  [created_on] timestamp default (CURRENT_TIMESTAMP)
+);
 GO
