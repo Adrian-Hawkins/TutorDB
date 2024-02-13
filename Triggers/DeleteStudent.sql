@@ -1,10 +1,10 @@
-CREATE OR ALTER TRIGGER TutorDeletion
-ON [dbo].[Tutors]
+CREATE OR ALTER TRIGGER StudentDeletion
+ON [dbo].[Students]
 INSTEAD OF DELETE
 AS
 BEGIN
     SET NOCOUNT ON;
-    UPDATE [Tutors]
+    UPDATE [Students]
     SET [deleted] = 1
     WHERE [id] IN (SELECT [id] FROM deleted)
 END;
