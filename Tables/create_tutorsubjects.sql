@@ -4,4 +4,4 @@ CREATE TABLE [TutorSubjects] (
   [subject_id] integer,
   [created_on] timestamp
 )
-GO;
+GO
