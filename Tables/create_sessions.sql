@@ -7,6 +7,8 @@ CREATE TABLE [Sessions] (
   [link] nvarchar(255) NOT NULL,
   [capacity] integer NOT NULL,
   [created_on] timestamp,
-  CONSTRAINT CHK_Price_Above_Zero CHECK (price > 0)
+  CONSTRAINT CHK_Price_Above_Zero CHECK (price > 0),
+  CONSTRAINT CHK_Capacity_GreaterThan_Zero CHECK (capacity > 0),
+  CONSTRAINT CHK_Duration_GreaterThan_Zero CHECK (duration_minutes > 0)
 );
 GO
