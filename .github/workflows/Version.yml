@@ -42,8 +42,8 @@ jobs:
       - name: Configure AWS credentials from AWS account
         uses: aws-actions/configure-aws-credentials@v1
         with: 
-          role-to-assume: ${{ secrets.AWS_ROLE }}
-          aws-region: ${{ secrets.AWS_REGION }}
+          role-to-assume: arn:aws:iam::804180393465:role/TutorDB_CICD
+          aws-region: "eu-west-1"
           role-session-name: GitHub-OIDC-TERRAFORM
 
       - name: Setup Terraform
@@ -59,8 +59,8 @@ jobs:
       - name: Terraform Init
         id: init
         env:
-          AWS_BUCKET_NAME: ${{ secrets.AWS_BUCKET_NAME }}
-          AWS_BUCKET_KEY_NAME: ${{ secrets.AWS_BUCKET_KEY_NAME }}
+          AWS_BUCKET_NAME: tutordb-oidc-bucket
+          AWS_BUCKET_KEY_NAME: infra.tfstate
         run: terraform init -backend-config="bucket=${AWS_BUCKET_NAME}" -backend-config="key=${AWS_BUCKET_KEY_NAME}"
 
       - name: Terraform Validate
