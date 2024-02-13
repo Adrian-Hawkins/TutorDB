@@ -1,11 +1,8 @@
 CREATE TABLE [StudentSessions] (
-  [id] int PRIMARY KEY NOT NULL,
-  [session_id] int,
-  [student_id] int,
-  [paid] bool DEFAULT (false),
-  [created_on] timestamp,
+  [id] integer PRIMARY KEY NOT NULL,
+  [session_id] integer NOT NULL,
+  [student_id] integer NOT NULL,
+  [paid] bit DEFAULT (0),
+  [created_on] timestamp default (CURRENT_TIMESTAMP),
 );
-
-ALTER TABLE [StudentSessions] ADD FOREIGN KEY ([session_id]) REFERENCES [Sessions]([id]);
-
-ALTER TABLE [StudentSessions] ADD FOREIGN KEY ([student_id]) REFERENCES [Students]([id]);
+GO
