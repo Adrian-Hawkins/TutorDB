@@ -44,7 +44,7 @@ jobs:
         with: 
           role-to-assume: arn:aws:iam::804180393465:role/TutorDB_CICD
           aws-region: "eu-west-1"
-          role-session-name: GitHub-OIDC-TERRAFORM
+          role-session-name: GitHub-OICD-TERRAFORM
 
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v2
