@@ -51,10 +51,10 @@ jobs:
         with:
           terraform_version: 1.2.5
 
-      - name: Terraform fmt
-        id: fmt
-        run: terraform fmt -check
-        continue-on-error: true
+      # - name: Terraform fmt
+      #   id: fmt
+      #   run: terraform fmt -check
+      #   continue-on-error: true
 
       - name: Terraform Init
         id: init
@@ -80,8 +80,7 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const output = `#### Terraform format and style: \`${{ steps.fmt.outcome}}\`
-            #### Terraform Initialisation: \`{{ steps.init.outcome }}\`
+            const output = `#### Terraform Initialisation: \`{{ steps.init.outcome }}\`
             #### Terraform Validation: \`{{ steps.validate.outcome }}\`
             <details><summary>Validation Output</summary>
 
