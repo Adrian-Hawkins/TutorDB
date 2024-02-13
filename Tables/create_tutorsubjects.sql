@@ -1,7 +1,7 @@
 CREATE TABLE [TutorSubjects] (
-  [id] integer PRIMARY KEY NOT NULL,
+  [id] integer PRIMARY KEY IDENTITY (1,1),
   [tutor_id] integer NOT NULL,
   [subject_id] integer NOT NULL,
-  [created_on] timestamp default (CURRENT_TIMESTAMP)
+  [created_on] timestamp
 );
 GO
