@@ -10,6 +10,6 @@ RETURN
 	FROM Levels l
     INNER JOIN Subjects s ON s.level_id = l.id
     INNER JOIN TutorSubjects ts ON ts.subject_id = s.id
-	INNER JOIN Tutors t ON ts.tutorId = t.id
+	INNER JOIN Tutors t ON ts.tutor_id = t.id
     WHERE ts.tutor_id = @tutorId
 );
