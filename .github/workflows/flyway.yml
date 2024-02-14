@@ -38,5 +38,5 @@ jobs:
       # - name: Baseline database -configFiles="./flyway/TutorDB/Flyway.toml"
       #   run: flyway baseline
 
-      # - name: Migrate database
-      #   run: flyway migrate
+      - name: Migrate database
+        run: flyway migrate
