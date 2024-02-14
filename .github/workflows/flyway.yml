@@ -10,6 +10,10 @@ jobs:
     defaults:
       run:
         working-directory: flyway
+    env:
+      FLYWAY_USER: admin
+      FLYWAY_PASSWORD: ${{secrets.DB_PASSWORD}}
+      FLYWAY_URL: ${{secrets.DB_URL}}
      
     steps:
       - name: Checkout code
@@ -21,9 +25,9 @@ jobs:
           sudo apt install -y default-jre
           wget -qO- https://repo1.maven.org/maven2/org/flywaydb/flyway-commandline/10.7.2/flyway-commandline-10.7.2-linux-x64.tar.gz | tar xvz
           sudo ln -s $(pwd)/flyway-10.7.2/flyway /usr/local/bin/flyway
-
-      - name: Baseline database
-        run: flyway baseline -configFiles="flyway/TutorDB/flyway.toml" -url=${{secrets.DB_URL}} -user="admin" -password=${{secrets.DB_PASSWORD}} -schemas="TutorDB_schema" -locations="flyway/TutorDB/migrations"
      
+      - name: Baseline database
+        run: flyway baseline
+
       - name: Migrate database
-        run: flyway migrate -configFiles="flyway/TutorDB/flyway.toml" -url=${{secrets.DB_URL}} -user="admin" -password=${{secrets.DB_PASSWORD}} -schemas="TutorDB_schema" -locations="flyway/TutorDB/migrations"
+        run: flyway migrate
