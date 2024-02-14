@@ -10,21 +10,23 @@ jobs:
     defaults:
       run:
         working-directory: flyway
-    env:
-      FLYWAY_USER: admin
-      FLYWAY_PASSWORD: ${{secrets.DB_PASSWORD}}
-      FLYWAY_URL: ${{secrets.DB_URL}}
-      FLYWAY_LOCATIONS: "./flyway/TutorDB"
+    # env:
+    #   FLYWAY_USER: admin
+    #   FLYWAY_PASSWORD: ${{secrets.DB_PASSWORD}}
+    #   FLYWAY_URL: ${{secrets.DB_URL}}
+    #   FLYWAY_LOCATIONS: "./flyway/TutorDB"
      
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-
-      - uses: joshuaavalon/flyway-action@v3.0.0
-        with:
-          url: ${{ secrets.DB_URL }}
-          user: admin
-          password: ${{ secrets.DB_PASSWORD }}
+      
+      - uses: docker://flyway/flyway:9
+        env:
+          FLYWAY_URL: ${{ secrets.DB_URL }}
+          FLYWAY_USER: admin
+          FLYWAY_PASSWORD: ${{ secrets.DB_PASSWORD }}
+          FLYWAY_LOCATIONS: flyway/TutorDB
+          FLYWAY_VALIDATE_MIGRATION_NAMING: true
 
       # - name: Setup Flyway CLI
       #   run: |
