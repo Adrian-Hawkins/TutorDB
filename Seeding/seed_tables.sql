@@ -10,8 +10,8 @@ INSERT INTO Students (name, surname) VALUES
     ('Bob', 'Smith'),
     ('Eve', 'Doe');
 
--- Populate Level table
-INSERT INTO Level (title, description) VALUES
+-- Populate Levels table
+INSERT INTO Levels (title, description) VALUES
     ('Beginner', 'Introduction to the subject'),
     ('Intermediate', 'Intermediate level of understanding'),
     ('Advanced', 'Advanced level of understanding');
