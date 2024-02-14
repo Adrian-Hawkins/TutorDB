@@ -1,4 +1,4 @@
-CREATE FUNCTION dbo.tutorOutstandingEarnings(
+CREATE FUNCTION dbo.GetTutorOutstandingEarnings(
 	@tutorID INT
 )
 RETURNS DEC(10,2)

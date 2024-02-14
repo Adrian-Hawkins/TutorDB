@@ -1,4 +1,4 @@
-CREATE FUNCTION dbo.numStudentsInSession(
+CREATE FUNCTION dbo.GetNumStudentsInSession(
 	@studentSessionID INT
 )
 RETURNS INT

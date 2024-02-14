@@ -1,4 +1,4 @@
-CREATE FUNCTION dbo.tutorTotalEarnings(
+CREATE FUNCTION dbo.GetTutorTotalEarnings(
 	@tutorID INT
 )
 RETURNS DEC(10,2)
