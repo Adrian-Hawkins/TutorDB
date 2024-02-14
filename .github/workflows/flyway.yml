@@ -20,13 +20,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Set up Flyway
-        uses: willemsrb/flyway-action@v2
+      - uses: joshuaavalon/flyway-action@v3.0.0
         with:
           url: ${{ secrets.DB_URL }}
           user: admin
           password: ${{ secrets.DB_PASSWORD }}
-          locations: "./flyway/TutorDB"
 
       # - name: Setup Flyway CLI
       #   run: |
