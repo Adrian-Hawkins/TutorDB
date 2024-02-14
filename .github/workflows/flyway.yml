@@ -27,7 +27,7 @@ jobs:
           wget -qO- https://repo1.maven.org/maven2/org/flywaydb/flyway-commandline/10.7.2/flyway-commandline-10.7.2-linux-x64.tar.gz | tar xvz
           sudo ln -s $(pwd)/flyway-10.7.2/flyway /usr/local/bin/flyway
      
-      - name: Baseline database
+      - name: Baseline database -configFiles="./flyway/TutorDB/Flyway.toml"
         run: flyway baseline
 
       - name: Migrate database
