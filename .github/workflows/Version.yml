@@ -29,10 +29,10 @@ jobs:
         run: flyway --version
       
       - name: Baseline database
-        run: flyway baseline -configFiles="./flyway/TutorDB/flyway.toml" -url="${{secrets.DB_URL}}" -user="admin" -password="${{secrets.DB_PASSWORD}}" -schemas="TutorDB_schema" -locations="./flyway/migrations" -workingDirectory="./flyway/TutorDB" -environment="TutorDB"
+        run: flyway baseline -configFiles="./flyway/TutorDB/flyway.toml" -url=${{secrets.DB_URL}} -user="admin" -password=${{secrets.DB_PASSWORD}} -schemas="TutorDB_schema" -locations="./flyway/migrations" -workingDirectory="./flyway/TutorDB" -environment="TutorDB"
       
       - name: Migrate database
-        run: flyway migrate -configFiles="./flyway/TutorDB/flyway.toml" -url="${{secrets.DB_URL}}" -user="admin" -password="${{secrets.DB_PASSWORD}}" -schemas="TutorDB_schema" -locations="./flyway/migrations" -workingDirectory="./flyway/TutorDB" -environment="TutorDB"
+        run: flyway migrate -configFiles="./flyway/TutorDB/flyway.toml" -url=${{secrets.DB_URL}} -user="admin" -password=${{secrets.DB_PASSWORD}} -schemas="TutorDB_schema" -locations="./flyway/migrations" -workingDirectory="./flyway/TutorDB" -environment="TutorDB"
 
       - name: Configure AWS credentials from AWS account
         uses: aws-actions/configure-aws-credentials@v1
