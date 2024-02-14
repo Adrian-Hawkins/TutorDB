@@ -12,33 +12,12 @@ permissions:
   id-token: write
   contents: read
 jobs:
-  # AssumeRoleAndCallIdentity:
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - name: Checkout repo
-  #       uses: actions/checkout@v3
-  #     - name: configure aws credentials
-  #       uses: aws-actions/configure-aws-credentials@v1.7.0
-  #       with:
-  #         role-to-assume: arn:aws:iam::804180393465:oidc-provider/token.actions.githubusercontent.com
-  #         role-session-name: GitHub_to_AWS_via_FederatedOIDC
-  #         aws-region: ${{ env.AWS_REGION }}
-  #     - name: Sts GetCallerIdentity
-  #       run: |
-  #         aws sts get-caller-identity
   version:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
         
-      - name: Setup Flyway CLI
-        run: |
-          sudo apt update
-          sudo apt install -y default-jre
-          wget -qO- https://repo1.maven.org/maven2/org/flywaydb/flyway-commandline/8.0.2/flyway-commandline-8.0.2-linux-x64.tar.gz | tar xvz
-          sudo ln -s $(pwd)/flyway-8.0.2/flyway /usr/local/bin/flyway
-      
       - name: Configure AWS credentials from AWS account
         uses: aws-actions/configure-aws-credentials@v1
         with: 
