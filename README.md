@@ -71,3 +71,14 @@ terraform apply -auto-approve
 ```
 terraform destroy -auot-approve
 ```
+
+## Additional Documentation
+
+### Confluence
+There are several [Confluence Docs](https://bbdtutordb.atlassian.net/wiki/home) for better understanding of certain aspects of the database such as:
+- [Tables and descriptions](https://bbdtutordb.atlassian.net/wiki/spaces/~712020da9ccb423bff49dcb50d6c8447b3889c/pages/2555905/Tables+and+descriptions) for an indepth analysis of all the tables and fields
+- [Features: functions, views, triggers, seeds](https://bbdtutordb.atlassian.net/wiki/spaces/~712020da9ccb423bff49dcb50d6c8447b3889c/pages/2686986/Features+functions+views+triggers+seeds) for details of the various non-tabular aspects of the database
+- [How to make the DB](https://bbdtutordb.atlassian.net/wiki/spaces/~712020da9ccb423bff49dcb50d6c8447b3889c/pages/1277953/How+to+make+the+DB) for a detailed explanation on the installation process
+
+### dbdiagram
+- [Database ERD](https://dbdiagram.io/d/TutorDB-65c3cc9cac844320aead7239)
