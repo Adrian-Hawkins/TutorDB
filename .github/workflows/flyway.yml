@@ -5,7 +5,7 @@ on:
   pull_request:
     branches: [ "dev" ]
 jobs:
-  deploy:
+  Setup:
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -20,7 +20,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
       
-      - uses: docker://flyway/flyway:9
+      - name: Setup Flyway CLI
+        uses: docker://flyway/flyway:9
         env:
           FLYWAY_URL: ${{ secrets.DB_URL }}
           FLYWAY_USER: admin
@@ -38,5 +39,11 @@ jobs:
       # - name: Baseline database -configFiles="./flyway/TutorDB/Flyway.toml"
       #   run: flyway baseline
 
-      - name: Migrate database
+      # - name: Migrate database
+      #   run: flyway migrate
+  Migrate:
+    runs-on: ubuntu-latest
+    needs: Setup
+    steps:
+      - name: migrate
         run: flyway migrate
