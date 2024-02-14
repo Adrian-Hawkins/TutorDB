@@ -15,6 +15,9 @@ jobs:
       FLYWAY_PASSWORD: ${{secrets.DB_PASSWORD}}
       FLYWAY_URL: ${{secrets.DB_URL}}
       FLYWAY_LOCATIONS: "filesystem:./TutorDB/"
+      FLYWAY_CLEAN_DISABLED: false
+      flyway_environment: "tutor-db"
+      FLYWAY_CONFIG_FILES: "./flyway/TutorDB/flyway.toml"
      
     steps:
       - name: Checkout code
