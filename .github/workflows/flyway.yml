@@ -12,7 +12,7 @@ jobs:
         working-directory: flyway
     env:
       FLYWAY_USER: admin
-      FLYWAY_PASSWORD: ${{secrets.PASSWORD}}
+      FLYWAY_PASSWORD: ${{secrets.DB_PASSWORD}}
       FLYWAY_URL: ${{secrets.DB_URL}}
      
     steps:
