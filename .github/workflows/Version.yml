@@ -18,19 +18,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
         
-      - name: Setup Flyway CLI
-        run: |
-          sudo apt update
-          sudo apt install -y default-jre
-          wget -qO- https://repo1.maven.org/maven2/org/flywaydb/flyway-commandline/8.0.2/flyway-commandline-8.0.2-linux-x64.tar.gz | tar xvz
-          sudo ln -s $(pwd)/flyway-8.0.2/flyway /usr/local/bin/flyway
-      
-      - name: Baseline database
-        run: flyway baseline -configFiles="flyway/TutorDB/flyway.toml" -url=${{secrets.DB_URL}} -user="admin" -password=${{secrets.DB_PASSWORD}} -schemas="TutorDB_schema" -locations="flyway/TutorDB/migrations"
-      
-      - name: Migrate database
-        run: flyway migrate -configFiles="flyway/TutorDB/flyway.toml" -url=${{secrets.DB_URL}} -user="admin" -password=${{secrets.DB_PASSWORD}} -schemas="TutorDB_schema" -locations="flyway/TutorDB/migrations"
-
       - name: Configure AWS credentials from AWS account
         uses: aws-actions/configure-aws-credentials@v1
         with: 

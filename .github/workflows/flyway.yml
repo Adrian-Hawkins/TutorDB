@@ -1,0 +1,30 @@
+name: Migrate database
+on:
+  push:
+    branches: [ "dev" ]
+  pull_request:
+    branches: [ "dev" ]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: flyway
+    env:
+      FLYWAY_USER: admin
+      FLYWAY_PASSWORD: ${{secrets.PASSWORD}}
+      FLYWAY_URL: ${{secrets.DB_URL}}
+     
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Flyway CLI
+        run: |
+          sudo apt update
+          sudo apt install -y default-jre
+          wget -qO- https://repo1.maven.org/maven2/org/flywaydb/flyway-commandline/8.0.2/flyway-commandline-8.0.2-linux-x64.tar.gz | tar xvz
+          sudo ln -s $(pwd)/flyway-8.0.2/flyway /usr/local/bin/flyway
+     
+      - name: Baseline database
+        run: flyway baseline
