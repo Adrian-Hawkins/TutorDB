@@ -1,3 +1,9 @@
+resource "aws_ssm_parameter" "testCICD" {
+  name = "testCICD"
+  type = "String"
+  value = "bar"
+}
+
 resource "aws_default_vpc" "default_vpc" {
   tags = {
     Name = "default_vpc"
