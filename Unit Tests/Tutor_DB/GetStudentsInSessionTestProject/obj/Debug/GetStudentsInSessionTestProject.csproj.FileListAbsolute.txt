@@ -1,0 +1,11 @@
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\GetStudentsInSessionTestProject.dll.config
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\GetStudentsInSessionTestProject.dll
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\GetStudentsInSessionTestProject.pdb
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\Microsoft.Data.Tools.Schema.Sql.UnitTesting.dll
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\Microsoft.Data.Tools.Schema.Sql.UnitTestingAdapter.dll
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\obj\Debug\GetStudentsInSessionTestProject.csproj.AssemblyReference.cache
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\obj\Debug\GetStudentsInSessionTestProject.csproj.CoreCompileInputs.cache
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\obj\Debug\GetStudentsInSessionTestProject.csproj.CopyComplete
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\obj\Debug\GetStudentsInSessionTestProject.dll
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\obj\Debug\GetStudentsInSessionTestProject.pdb

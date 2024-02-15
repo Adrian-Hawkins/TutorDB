@@ -1,0 +1,102 @@
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\GetStudentsInSessionTestProject.dll.config
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\GetStudentsInSessionTestProject.dll
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\GetStudentsInSessionTestProject.pdb
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\Microsoft.Data.Tools.Components.dll
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\Microsoft.Data.Tools.Schema.Sql.dll
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\Microsoft.Data.Tools.Schema.Sql.UnitTesting.dll
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\Microsoft.Data.Tools.Schema.Sql.UnitTestingAdapter.dll
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\Microsoft.Data.Tools.Utilities.dll
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\Microsoft.Build.Framework.dll
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\Microsoft.SqlServer.TransactSql.ScriptDom.dll
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\Microsoft.Build.dll
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\System.Collections.Immutable.dll
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\System.Text.Json.dll
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\Microsoft.NET.StringTools.dll
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\System.Memory.dll
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\System.Buffers.dll
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\cs\Microsoft.Build.resources.dll
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\de\Microsoft.Build.resources.dll
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\en\Microsoft.Build.resources.dll
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\es\Microsoft.Build.resources.dll
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\fr\Microsoft.Build.resources.dll
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\it\Microsoft.Build.resources.dll
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\ja\Microsoft.Build.resources.dll
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\ko\Microsoft.Build.resources.dll
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\pl\Microsoft.Build.resources.dll
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\pt-BR\Microsoft.Build.resources.dll
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\ru\Microsoft.Build.resources.dll
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\tr\Microsoft.Build.resources.dll
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\zh-Hans\Microsoft.Build.resources.dll
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\zh-Hant\Microsoft.Build.resources.dll
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\obj\Debug\TestTutorDB.csproj.AssemblyReference.cache
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\obj\Debug\GetStudentsInSessionTestProject.GetStudentsInSessionTest.resources
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\obj\Debug\TestTutorDB.csproj.GenerateResource.cache
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\obj\Debug\TestTutorDB.csproj.CoreCompileInputs.cache
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\obj\Debug\TestTutorDB.csproj.CopyComplete
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\obj\Debug\GetStudentsInSessionTestProject.dll
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\obj\Debug\GetStudentsInSessionTestProject.pdb
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\obj\Debug\GetStudentsInSessionTestProject.GetNumStudentsInSessionTest.resources
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\obj\Debug\GetStudentsInSessionTestProject.GetTotalAmountOwedTest.resources
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\obj\Debug\GetStudentsInSessionTestProject.GetSubjectsTaughtByTutorTest.resources
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\obj\Debug\GetStudentsInSessionTestProject.GetTutorOutstandingEarningsTest.resources
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\obj\Debug\GetStudentsInSessionTestProject.GetTutorTotalReceivedEarningsTest.resources
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\obj\Debug\GetStudentsInSessionTestProject.GetTutorTotalEarningsTest.resources
+C:\Users\bbdnet2814\source\repos\Tutor_DB\GetStudentsInSessionTestProject\obj\Debug\GetStudentsInSessionTestProject.DisplayTopTenEarnersTest.resources
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\GetStudentsInSessionTestProject.dll.config
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\GetStudentsInSessionTestProject.dll
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\GetStudentsInSessionTestProject.pdb
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\Microsoft.Data.Tools.Components.dll
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\Microsoft.Data.Tools.Schema.Sql.dll
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\Microsoft.Data.Tools.Schema.Sql.UnitTesting.dll
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\Microsoft.Data.Tools.Schema.Sql.UnitTestingAdapter.dll
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\Microsoft.Data.Tools.Utilities.dll
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\Microsoft.Build.Framework.dll
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\Microsoft.SqlServer.TransactSql.ScriptDom.dll
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\Microsoft.Build.dll
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\System.Collections.Immutable.dll
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\System.Text.Json.dll
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\Microsoft.NET.StringTools.dll
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\System.Memory.dll
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\System.Buffers.dll
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\cs\Microsoft.Build.resources.dll
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\de\Microsoft.Build.resources.dll
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\en\Microsoft.Build.resources.dll
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\es\Microsoft.Build.resources.dll
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\fr\Microsoft.Build.resources.dll
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\it\Microsoft.Build.resources.dll
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\ja\Microsoft.Build.resources.dll
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\ko\Microsoft.Build.resources.dll
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\pl\Microsoft.Build.resources.dll
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\pt-BR\Microsoft.Build.resources.dll
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\ru\Microsoft.Build.resources.dll
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\tr\Microsoft.Build.resources.dll
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\zh-Hans\Microsoft.Build.resources.dll
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\bin\Debug\zh-Hant\Microsoft.Build.resources.dll
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\obj\Debug\TestTutorDB.csproj.AssemblyReference.cache
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\obj\Debug\GetStudentsInSessionTestProject.DisplayTopTenEarnersTest.resources
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\obj\Debug\GetStudentsInSessionTestProject.GetNumStudentsInSessionTest.resources
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\obj\Debug\GetStudentsInSessionTestProject.GetStudentsInSessionTest.resources
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\obj\Debug\GetStudentsInSessionTestProject.GetSubjectsTaughtByTutorTest.resources
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\obj\Debug\GetStudentsInSessionTestProject.GetTotalAmountOwedTest.resources
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\obj\Debug\GetStudentsInSessionTestProject.GetTutorOutstandingEarningsTest.resources
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\obj\Debug\GetStudentsInSessionTestProject.GetTutorTotalEarningsTest.resources
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\obj\Debug\GetStudentsInSessionTestProject.GetTutorTotalReceivedEarningsTest.resources
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\obj\Debug\TestTutorDB.csproj.GenerateResource.cache
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\obj\Debug\TestTutorDB.csproj.CoreCompileInputs.cache
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\obj\Debug\TestTutorDB.csproj.CopyComplete
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\obj\Debug\GetStudentsInSessionTestProject.dll
+C:\Users\bbdnet2814\TutorDB\TutorDB\Unit Tests\Tutor_DB\GetStudentsInSessionTestProject\obj\Debug\GetStudentsInSessionTestProject.pdb

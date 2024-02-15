@@ -1,0 +1,86 @@
+2024/02/14 22:42:54	This log contains information about the import schema operation into project 'Tutor_DB' on computer 'ABDULO' by user 'bbdnet2814'.
+2024/02/14 22:42:55	Import of database schema has started.
+2024/02/14 22:43:33	Gathering database credentials
+2024/02/14 22:43:33	Gathering database options
+2024/02/14 22:43:33	Gathering generic database scoped configuration option
+2024/02/14 22:43:33	Gathering users
+2024/02/14 22:43:33	Gathering roles
+2024/02/14 22:43:33	Gathering application roles
+2024/02/14 22:43:33	Gathering role memberships
+2024/02/14 22:43:33	Gathering filegroups
+2024/02/14 22:43:33	Gathering full-text catalogs
+2024/02/14 22:43:33	Gathering assemblies
+2024/02/14 22:43:34	Gathering certificates
+2024/02/14 22:43:34	Gathering asymmetric keys
+2024/02/14 22:43:34	Gathering symmetric keys
+2024/02/14 22:43:34	Gathering encrypted symmetric keys
+2024/02/14 22:43:34	Gathering schemas
+2024/02/14 22:43:34	Gathering XML schema collections
+2024/02/14 22:43:34	Gathering user-defined data types
+2024/02/14 22:43:34	Gathering user-defined types
+2024/02/14 22:43:34	Gathering table types
+2024/02/14 22:43:34	Gathering unique keys for table types
+2024/02/14 22:43:34	Gathering primary keys for table types
+2024/02/14 22:43:34	Gathering indexes for table types
+2024/02/14 22:43:34	Gathering check constraints for table types
+2024/02/14 22:43:34	Gathering default constraints for table types
+2024/02/14 22:43:34	Gathering partition functions
+2024/02/14 22:43:37	Gathering partition schemes
+2024/02/14 22:43:37	Gathering functions
+2024/02/14 22:43:37	Gathering encrypted functions
+2024/02/14 22:45:01	Gathering aggregates
+2024/02/14 22:45:02	Gathering procedures
+2024/02/14 22:45:02	Gathering encrypted procedures
+2024/02/14 22:45:29	Gathering tables
+2024/02/14 22:45:57	Gathering primary keys
+2024/02/14 22:45:58	Gathering unique constraints
+2024/02/14 22:45:59	Gathering foreign keys
+2024/02/14 22:45:59	Gathering default constraints
+2024/02/14 22:46:00	Gathering check constraints
+2024/02/14 22:46:00	Gathering views
+2024/02/14 22:46:06	Gathering encrypted views
+2024/02/14 22:46:07	Gathering indexes
+2024/02/14 22:46:07	Gathering statistics
+2024/02/14 22:46:07	Gathering full-text index stoplists
+2024/02/14 22:46:08	Gathering search property lists
+2024/02/14 22:46:08	Gathering search properties
+2024/02/14 22:46:09	Gathering full-text indexes
+2024/02/14 22:46:10	Gathering column store indexes
+2024/02/14 22:46:10	Gathering spatial indexes
+2024/02/14 22:46:11	Gathering XML indexes
+2024/02/14 22:46:12	Gathering Selective XML indexes
+2024/02/14 22:46:13	Gathering encrypted triggers
+2024/02/14 22:46:14	Gathering triggers
+2024/02/14 22:46:14	Gathering encrypted and clr ddl triggers
+2024/02/14 22:46:14	Gathering ddl triggers
+2024/02/14 22:46:15	Gathering synonyms
+2024/02/14 22:46:43	Gathering defaults
+2024/02/14 22:46:44	Gathering data constraint uddt bindings
+2024/02/14 22:46:47	Gathering rules
+2024/02/14 22:46:47	Gathering data constraint uddt bindings
+2024/02/14 22:46:48	Gathering message types
+2024/02/14 22:46:48	Gathering queues
+2024/02/14 22:46:49	Gathering contracts
+2024/02/14 22:46:49	Gathering services
+2024/02/14 22:46:49	Gathering event notifications
+2024/02/14 22:46:50	Gathering remote service bindings
+2024/02/14 22:46:50	Gathering broker priorities
+2024/02/14 22:46:50	Gathering signatures
+2024/02/14 22:46:51	Gathering data compression options
+2024/02/14 22:46:52	Gathering sequence types
+2024/02/14 22:46:52	Gathering security policies
+2024/02/14 22:46:52	Gather column encryption keys
+2024/02/14 22:46:53	Gathering column master keys
+2024/02/14 22:46:53	Gathering external data sources
+2024/02/14 22:46:53	Gathering external file formats
+2024/02/14 22:47:19	Gathering external tables
+2024/02/14 22:47:20	Gathering extended properties
+2024/02/14 22:47:35	Gathering assemblies
+2024/02/14 22:47:43	Gathering credentials
+2024/02/14 22:47:43	Gathering logins
+2024/02/14 22:47:44	Gathering server audits
+2024/02/14 22:47:47	Scanning project for duplicate elements
+2024/02/14 22:47:47	Finished duplicate element processing
+2024/02/14 22:47:48	Finished importing database.
+2024/02/14 22:47:48	A summary of the import was saved to the following location: C:\Users\bbdnet2814\source\repos\Tutor_DB\Import Schema Logs\Tutor_DB_20240214084254.log
+2024/02/14 22:47:48	Click Finish to continue...
