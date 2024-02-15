@@ -4,7 +4,7 @@ CREATE TABLE [Sessions] (
   [start] datetime NOT NULL,
   [duration_minutes] integer NOT NULL,
   [price] decimal(10,2) NOT NULL,
-  [link] nvarchar(255) NOT NULL,
+  [link] varchar(255) NOT NULL,
   [capacity] integer NOT NULL,
   [created_on] timestamp,
   CONSTRAINT CHK_Price_Above_Zero CHECK (price > 0),
