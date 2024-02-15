@@ -7,7 +7,8 @@ BEGIN
     IF EXISTS (
         SELECT 1
         FROM inserted i
-                 JOIN Tutors t ON i.tutor_id = t.id
+                 JOIN TutorSubjects ts ON i.tutor_subject_id = ts.id
+                 JOIN Tutors t ON ts.tutor_id = t.id
         WHERE t.deleted = 1
     )
         BEGIN
