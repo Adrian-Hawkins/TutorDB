@@ -1,5 +1,5 @@
-CREATE PROCEDURE DeleteOldTutors
-@archiveThreshold DATETIME = DATEADD(MONTH, -6, GETDATE()) -- Default to archiving sessions older than 6 months
+CREATE OR ALTER PROCEDURE DeleteOldTutors
+@archiveThreshold DATETIME
 AS
 BEGIN
     SET NOCOUNT ON;

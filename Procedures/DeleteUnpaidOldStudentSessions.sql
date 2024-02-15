@@ -1,5 +1,5 @@
-CREATE PROCEDURE DeleteUnpaidOldStudentSessions
-@archiveThreshold DATETIME = DATEADD(WEEK, -1, GETDATE())
+CREATE OR ALTER PROCEDURE DeleteUnpaidOldStudentSessions
+@archiveThreshold DATETIME
 AS
 BEGIN
     SET NOCOUNT ON;
