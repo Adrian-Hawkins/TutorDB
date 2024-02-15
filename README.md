@@ -82,6 +82,20 @@ There must be an OICD provider initialised in AWS that uses an already authorise
 Allows Terraform setup...
 
 ### Terrafrom Init
+Sets bucket name and key, so that the terraform information can be stored there. Throws an error if not.
+`terraform init -backend-config="bucket=${AWS_BUCKET_NAME}" -backend-config="key=${AWS_BUCKET_KEY_NAME}"`
+
+### Terraform Validate
+Ensures the Terraform file has all the necessary parameters and does not have incorrect syntax. Throws an error if not.
+`terraform validate -no-color`
+
+### Terraform Plan
+On a pull request, configure Terraform run files to include the init file and any new parameters. If it fails in a pull-request, it may be due to other things happening in the background, so allow the actions to continue running and log if an error was not resolved. Additionally, output a log of the currently running actions in a nicely formatted manner.
+`terraform plan -no-color`, and refer to Version.yaml lines 62+.
+
+## Order of files executed
+All create tables are run first. Then, the constraints are run. The tables are then seeded, followed by all UDFs, SPs, Triggers and Views executions. Then, the roles are set (admin and RestrictedUser). This is executed when the schema is updated (Flyway).
+
 
 
 ## Additional Documentation
