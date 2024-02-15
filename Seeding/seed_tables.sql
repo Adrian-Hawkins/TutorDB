@@ -1,14 +1,14 @@
 -- Populate Tutors table
-INSERT INTO Tutors (name, surname) VALUES
-    ('John', 'Doe'),
-    ('Jane', 'Smith'),
-    ('Michael', 'Johnson');
+INSERT INTO Tutors (name, surname, email) VALUES
+    ('John', 'Doe', 'john.doe@outlook.com'),
+    ('Jane', 'Smith', 'smith@gmail.com'),
+    ('Michael', 'Johnson', 'john@vodacom.co.za');
 
 -- Populate Students table
-INSERT INTO Students (name, surname) VALUES
-    ('Alice', 'Johnson'),
-    ('Bob', 'Smith'),
-    ('Eve', 'Doe');
+INSERT INTO Students (name, surname, email) VALUES
+    ('Alice', 'Johnson', 'alice@bbc.co.za'),
+    ('Bob', 'Smith', 'bob@kiddon.com'),
+    ('Eve', 'Doe', 'eve.doe@bbd.com');
 
 -- Populate Levels table
 INSERT INTO Levels (title, description) VALUES
