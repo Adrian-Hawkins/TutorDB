@@ -69,8 +69,20 @@ terraform apply -auto-approve
 ### Delete Database
 
 ```
-terraform destroy -auot-approve
+terraform destroy -auto-approve
 ```
+
+
+## Github actions & CI/CD Automation Config
+
+### Configure AWS Credentials
+There must be an OICD provider initialised in AWS that uses an already authorised admin/user's information for login. The use of an OICD allows GitHub actions to do all of the admin-level maintenance commands without needing to have an admin present and currently logged in.
+
+### Setup Terraform
+Allows Terraform setup...
+
+### Terrafrom Init
+
 
 ## Additional Documentation
 
