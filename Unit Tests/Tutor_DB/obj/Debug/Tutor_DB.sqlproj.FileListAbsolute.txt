@@ -1,0 +1,10 @@
+C:\Users\bbdnet2814\source\repos\Tutor_DB\bin\Debug\Tutor_DB.dacpac
+C:\Users\bbdnet2814\source\repos\Tutor_DB\bin\Debug\Tutor_DB.dll
+C:\Users\bbdnet2814\source\repos\Tutor_DB\bin\Debug\Tutor_DB.pdb
+C:\Users\bbdnet2814\source\repos\Tutor_DB\obj\Debug\Tutor_DB.sqlproj.AssemblyReference.cache
+C:\Users\bbdnet2814\source\repos\Tutor_DB\obj\Debug\Tutor_DB.dll
+C:\Users\bbdnet2814\source\repos\Tutor_DB\obj\Debug\Tutor_DB.pdb
+C:\Users\bbdnet2814\source\repos\Tutor_DB\obj\Debug\Model.xml
+C:\Users\bbdnet2814\source\repos\Tutor_DB\obj\Debug\refactor.xml
+C:\Users\bbdnet2814\source\repos\Tutor_DB\obj\Debug\postdeploy.sql
+C:\Users\bbdnet2814\source\repos\Tutor_DB\obj\Debug\predeploy.sql
