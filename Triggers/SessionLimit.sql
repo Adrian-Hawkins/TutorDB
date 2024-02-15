@@ -21,7 +21,7 @@ BEGIN
             RETURN;
         END;
 
-    INSERT INTO StudentSessions (session_id, student_id, paid, created_on)
-    SELECT session_id, student_id, paid, created_on
+    INSERT INTO StudentSessions (session_id, student_id, paid)
+    SELECT session_id, student_id, paid
     FROM inserted;
 END;
